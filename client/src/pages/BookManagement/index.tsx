@@ -1,6 +1,6 @@
 import { Button } from 'components/ui';
 import { Link } from 'react-router-dom';
-import { set, useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Modal } from '@mui/base/Modal';

@@ -43,7 +43,7 @@ const Signup = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors }, setError, setFocus, reset,
+    formState: { errors }, setError, setFocus,
   } = useForm({
     resolver: yupResolver(schema),
   });

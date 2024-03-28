@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="sticky mx-auto flex w-full max-w-7xl items-center justify-between gap-x-8 rounded-es-md bg-primary px-20 py-3">
       <Link className="text-3xl" id="logo" to="/">
-        BOOKBAZAAR
+        AuthorConnect
       </Link>
       <div className="flex shrink-0 gap-14 text-white" id="nav-links">
         {NavMenu.map((item, index) => (

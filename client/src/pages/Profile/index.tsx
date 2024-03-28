@@ -5,9 +5,8 @@ import useAuth from 'hooks/useAuth';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { get } from 'libs/axios';
 import { Button } from 'components/ui';
-import { AuthUser, updateMe } from 'services/user.service';
+import { AuthUser } from 'services/user.service';
 
 const schema = yup.object().shape({
   first_name: yup.string().required('First name is required'),

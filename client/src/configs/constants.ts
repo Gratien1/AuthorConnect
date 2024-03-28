@@ -1,6 +1,6 @@
 // constants.ts
 export const colors = {
-  primary: '#8AB907',
+  primary: '#e19421',
   secondary: '#207BA7',
   accent: '#e74c3c',
 };
